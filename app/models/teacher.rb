@@ -1,6 +1,6 @@
 class Teacher < ApplicationRecord
     # Associations
-    has_many :.courses, dependent: :destroy
+    has_many :courses, dependent: :destroy
   
     # Validations
     validates :name, presence: true
