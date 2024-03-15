@@ -9,7 +9,7 @@ require 'faker'
 end
 
 # Seed Teachers
-5.times do
+4.times do
   Teacher.create!(
     name: Faker::Name.name,
     email: Faker::Internet.email
